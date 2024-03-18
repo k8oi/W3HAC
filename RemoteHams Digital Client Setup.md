@@ -30,50 +30,47 @@
 #### RCFOrb Client Install & Configuration
 1. Install RCFOrbClient
     1. http://download.remotehams.com/
-    2. NOTE
+    1. NOTE
         1. I used v0.9.309
-        2. The later versions have some kind of Virtual Serial Port latency which affects WSJT-X PTT keying and I haven't figured out a way to fix it
-2. Start RCFOrbClient
+        1. The later versions have some kind of Virtual Serial Port latency which affects WSJT-X PTT keying and I haven't figured out a way to fix it
+1. Start RCFOrbClient
     1. Audio Tab
-        1. Set SPKR and MIC are connected to "Line 1"
-    2. Virtual Devices Tab
+        * Set SPKR and MIC are connected to "Line 1"
+    1. Virtual Devices Tab
         1. Virtual K3: Select a Com Port & Set to "On"
-        2. Virtual Rotator: Select a Com Port & Set to "On"
-3. Connect to RemoteHams Server
+        1. Virtual Rotator: Select a Com Port & Set to "On"
+1. Connect to RemoteHams Server
     1. Search for W3HAC
-    2. Select HacDC ... W3HAC and right mouse click to Add Favorite
-    3. Double Click and Connect
-
-WSJT-X Install & Configuration
+    1. Select HacDC ... W3HAC and right mouse click to Add Favorite
+    1. Double Click and Connect
+---
+#### WSJT-X Install & Configuration
 1. Install WSJT-X
     1. https://wsjt.sourceforge.io/wsjtx.html
-    2. NOTE: I used 32bit v2.6.1
-    3. Install the updated HamLib: https://wsjt.sourceforge.io/support.html
-    4. NOTE: I used 32bit Hamlib DLL
-2. Start WSJT-X
-3. File -> Settings -> Radio Tab
+    1. NOTE: I used 32bit v2.6.1
+    1. Install the updated HamLib: https://wsjt.sourceforge.io/support.html
+    1. NOTE: I used 32bit Hamlib DLL
+1. Start WSJT-X
+1. File -> Settings -> Radio Tab
     1. Rig: Elecraft K3
-    2. Cat Control: Serial Port -> Select the RCFOrbClient Virtual K3 COM Port
-    3. Data Bits: 8
-    4. Stop Bits: 1
-    5. Handshake: None
-    6. PTT Method: CAT
-    7. Mode: USB
-    8. Split Operation: Fake It
-4. File -> Settings -> Audio Tab
+    1. Cat Control: Serial Port -> Select the RCFOrbClient Virtual K3 COM Port
+    1. Data Bits: 8
+    1. Stop Bits: 1
+    1. Handshake: None
+    1. PTT Method: CAT
+    1. Mode: USB
+    1. Split Operation: Fake It
+1. File -> Settings -> Audio Tab
     1. Soundcard Input: Line 1
-    2. Soundcard Output: Line 1
-
-PstRotator Install & Configuration
+    1. Soundcard Output: Line 1
+---
+#### PstRotator Install & Configuration
 1. Install PstRotator
     1. https://pstrotator.com/
-    2. NOTE: I installed PstRotatorAz
-2. Setup -> Controller: DCU-1 Hy-Gain
-3. Setup -> My Location: My Locator FM18JW (W3HAC Remote Site Grid)
-4. Communication -> Azimuth COM Port: Select the RCFOrbClient Virtual Rotator COM Port
-5. Setup -> Trackers Setup -> Test & Save Setup
-    1. NOTE: WSJT-X must be running for this test to work
-6. Set Tracker -> WSJT-X
-Now
-
-
+    1. NOTE: I installed PstRotatorAz
+1. Setup -> Controller: DCU-1 Hy-Gain
+1. Setup -> My Location: My Locator FM18JW (W3HAC Remote Site Grid)
+1. Communication -> Azimuth COM Port: Select the RCFOrbClient Virtual Rotator COM Port
+1. Setup -> Trackers Setup -> Test & Save Setup
+    * NOTE: WSJT-X must be running for this test to work
+1. Set Tracker -> WSJT-X
