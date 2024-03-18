@@ -1,33 +1,33 @@
 ### RemoteHams Digital Setup
-VAC Install and Sound Device Config
+#### VAC Install and Sound Device Config
 1. Install VAC 7 Full
-2. VAC Control Panel (Run as Administrator)
+1. VAC Control Panel (Run as Administrator)
     1. Set "Cables" to 1
-    2. Ensure "Volume control" is enabled
-3. System -> Sound
-    1. Set default audio device drivers to your preference
-4. System -> Sound -> More Sound Settings -> Playback Tab -> Line 1 Properties -> Levels Tab
+    1. Ensure "Volume control" is enabled
+1. System -> Sound
+    * Set default audio device drivers to your preference
+1. System -> Sound -> More Sound Settings -> Playback Tab -> Line 1 Properties -> Levels Tab
     1. Line 1 Set to 95%
-    2. Main Volume Set to 25%
-5. System -> Sound -> More Sound Settings -> Playback Tab -> Line 1 Properties -> Advanced Tab
-    1. Disable "Enable audio enhancements"
-6. System -> Sound -> More Sound Settings -> Playback Tab -> Line 1 Properties -> "Spacial Sound" Tab
-    1. Line 1 Set to "Off"
-7. System -> Sound -> More Sound Settings -> Recording Tab -> Line 1 Properties -> Levels Tab
-    1. Line 1 VAC Recording is set to 5%
-8. System -> Sound -> More Sound Settings -> Recording Tab -> Line 1 Properties -> Advanced Tab
-    1. Disable "Enable audio enhancements"
-
-White Noise Application Install & Volume Mixer Config
+    1. Main Volume Set to 25%
+1. System -> Sound -> More Sound Settings -> Playback Tab -> Line 1 Properties -> Advanced Tab
+    * Disable "Enable audio enhancements"
+1. System -> Sound -> More Sound Settings -> Playback Tab -> Line 1 Properties -> "Spacial Sound" Tab
+    * Line 1 Set to "Off"
+1. System -> Sound -> More Sound Settings -> Recording Tab -> Line 1 Properties -> Levels Tab
+    * Line 1 VAC Recording is set to 5%
+1. System -> Sound -> More Sound Settings -> Recording Tab -> Line 1 Properties -> Advanced Tab
+    * Disable "Enable audio enhancements"
+---
+#### White Noise Application Install & Volume Mixer Config
 1. Install preferred White Noise Application
-    1. I used "TMSoft White Noise App" https://www.tmsoft.com/
-2. Start White Noise App
-3. System -> Sound -> Volume Mixer
+    * I used "TMSoft White Noise App" https://www.tmsoft.com/
+1. Start White Noise App
+1. System -> Sound -> Volume Mixer
     1. Set White Noise app to 10%
-    2. Set White Noise "Output device" to Line 1
-    3. Set White Noise "Input device" to Default
-
-RCFOrb Client Install & Configuration
+    1. Set White Noise "Output device" to Line 1
+    1. Set White Noise "Input device" to Default
+---
+#### RCFOrb Client Install & Configuration
 1. Install RCFOrbClient
     1. http://download.remotehams.com/
     2. NOTE
