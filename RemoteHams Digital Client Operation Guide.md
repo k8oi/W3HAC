@@ -1,3 +1,4 @@
+## (K8OI) These notes are DRAFT, when I am confident they are complete, I'll update the document stating they are accurate (2024-03-18)
 ### RH Digital Client Operation Procedure
 1. Start Remote Hams
 	1. Check Audio: SPKR & MIC to Line 1
