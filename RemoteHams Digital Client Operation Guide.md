@@ -1,4 +1,4 @@
-### RH Digital Operation Procedure
+### RH Digital Client Operation Procedure
 1. Start Remote Hams
 	1. Check Audio: SPKR & MIC to Line 1
 	1. Check Virtual Devices
